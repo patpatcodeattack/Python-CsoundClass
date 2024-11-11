@@ -9,10 +9,11 @@ gentable bounds(6, 124, 300, 94)  tableGridColour(255, 0, 0, 255) tableBackgroun
 gentable bounds(8, 230, 300, 105)  tableGridColour(255, 255, 255, 255) tableBackgroundColour(75, 163, 168, 255)  tableNumber(3.0) tableColour:0(255, 0, 0, 255)
 signaldisplay bounds(418, 82, 372, 385) ,displayType("lissajous"), signalVariable("aL", "aR"),backgroundColour(0, 0, 0), zoom(-2),  channel("display")
 
-vmeter bounds(322, 130, 82, 241) channel("vu1")  outlineColour(0, 0, 0, 255), overlayColour(0, 0, 0, 255) meterColour:0(255, 0, 0, 255) meterColour:1(255, 255, 0, 255) meterColour:2(0, 255, 0, 255)
+vmeter bounds(322, 130, 82, 241) channel("vu1")  outlineColour(0, 0, 0, 255), overlayColour(0, 0, 0, 255) meterColour:0(255, 0, 0, 255) meterColour:1(255, 255, 0, 255) meterColour:2(13, 101, 13, 255)
 
 rslider bounds(324, 32, 78, 97) channel("rev") range(0, 1, 0.5, 1, 0.001) text("dry/wet") colour(101, 69, 0, 255) outlineColour(255, 103, 172, 255) fontColour(0, 0, 0, 255) textColour(255, 255, 255, 255) trackerColour(224, 199, 60, 255)
 label bounds(324, 6, 80, 27) channel("label10007") text("reverb")
+
 </Cabbage>
 <CsoundSynthesizer>
 <CsOptions>
